@@ -18,7 +18,7 @@ for (let i = 0; i < 60; i +=1){
   // Create each modal
   const modal = document.createElement('div');
   modal.classList.add("modal-style");
-  mainContainer.appendChild(modal);
+  document.body.appendChild(modal);
 
   // Add img to each modal
   const popUpVerse = document.createElement('img');
