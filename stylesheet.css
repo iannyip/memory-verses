@@ -3,7 +3,7 @@
 }
 .main-container-style {
   /* background-color: grey; */
-  width: 500px;
+  width: 700px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -13,8 +13,8 @@
 
 /* CARD STYLES */
 .card-style {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
   box-sizing: border-box;
   margin: 10px 20px;
   background-color: grey;
@@ -24,6 +24,7 @@
   align-items: center;
   justify-content: center;
   font-family: sans-serif;
+  font-size: 50px;
   color: white;
 }
 
@@ -44,5 +45,5 @@ section:hover {
   height: 100%;
 }
 .verse-img-style {
-  position: fixed;
+  position: static;
 }

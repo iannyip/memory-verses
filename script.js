@@ -40,9 +40,4 @@ for (let i = 0; i < 60; i +=1){
   }
   })
 
-  // window.onclick = function(event) {
-  // if (event.target == modal) {
-  //   modal.style.display = "none";
-  // }
-  // }
 }
