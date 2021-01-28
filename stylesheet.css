@@ -1,14 +1,14 @@
 * {
-  text-align: center;
+  background-color: #f7f7e8;
 }
 .main-container-style {
-  /* background-color: grey; */
-  width: 700px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* align-items: center; */
 }
 
 /* CARD STYLES */
@@ -17,7 +17,7 @@
   width: 100px;
   box-sizing: border-box;
   margin: 10px 20px;
-  background-color: grey;
+  background-color: #9dad7f;
   /* border: black solid 1px; */
   border-radius: 10px;
   display: flex;
@@ -25,7 +25,7 @@
   justify-content: center;
   font-family: sans-serif;
   font-size: 50px;
-  color: white;
+  color: #f7f7e8;
 }
 
 section:hover {
